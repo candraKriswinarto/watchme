@@ -11,7 +11,7 @@ const NotFound = () => {
     }, 5000);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [router]);
 
   return (
     <div className="flex flex-col items-center justify-center mt-60">
